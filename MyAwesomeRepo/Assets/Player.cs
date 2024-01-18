@@ -32,5 +32,15 @@ public class Player : MonoBehaviour
         {
             transform.position += Vector3.right * 0.05f;
         }
+
+        if (Input.GetKey(KeyCode.Q))
+        {
+            transform.position += Vector3.up * 0.05f;
+        }
+
+        if (Input.GetKey(KeyCode.E))
+        {
+            transform.position += Vector3.down * 0.05f;
+        }
     }
 }
